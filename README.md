@@ -1,6 +1,6 @@
 # Python-Scripts
 
-# Pip Installation for Linux  
+# Pip installation on Linux  
 
 ### To Install pip securely in Linux servers
 ```sh
@@ -10,8 +10,9 @@ wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 ```sh
 python get-pip.py
 ```
+<br>
 
-# Virtualenv in Python
+# Virtualenv installation and setup in Python on Linux
 ### What is virtualenv?
 ***"virtualenv"*** is a tool used to create isolated Python environments. It creates a folder which contains all the necessary executables to use the packages that a Python project would need.
  ### To Install virtualenv with pip
@@ -37,9 +38,9 @@ or
 ```sh
 virtualenv --python=/usr/bin/python3 automation-env
 ```
+<br>
 
-
-# To Install Fabric-python library, in Linux
+# Fabric-python library installation on Linux
 ### To Install latest version of fabric 
 ```sh
 pip install fabric
