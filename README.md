@@ -29,7 +29,7 @@ virtualenv automation-env
 ```
 > This creates a directory in the current path with the name of the environment (automation-env/). This directory contains the directories for installing modules and Python executables.
 > 
-### To specify the Python version to work with on the specified ***virtualenv directory***
+### To specify the Python version to work with
 Just use the argument `--python=/path/to/python/version virtualenv_name`
 ```sh
 virtualenv --python=/usr/bin/python2.7 automation-env
@@ -44,6 +44,17 @@ Before you can start using the environment you need to activate it
 source automation-env/bin/activate
 ```
 > This ensures that only packages under automation-env/ are used. You will notice that the name of the environment is shown on the left of the prompt. This way you can see which is the active environment.
+
+### Deactivate an Environment
+After done working with the virtual environment deactivate it with
+```sh
+deactivate
+```
+> This puts back to the system’s default Python interpreter with all its installed libraries.
+
+### To delete an Environment
+Simply delete the environment folder.
+
 <br>
 
 # Fabric-python library installation on Linux
