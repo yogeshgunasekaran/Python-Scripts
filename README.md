@@ -18,10 +18,14 @@ python get-pip.py
  ```sh
 pip install virtualenv
 ```
- ```sh
+```sh
 virtualenv --version
 ```
-### To create a virtual environment use
+### To create a virtual environment now
+```sh
+virtualenv automation-env
+```
+This creates a directory in the current path with the name of the environment (automation-env/). This directory contains the directories for installing modules and Python executables.
 
 
 # To Install Fabric-python library, in Linux
